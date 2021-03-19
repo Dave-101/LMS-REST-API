@@ -1,0 +1,38 @@
+Instructions:
+
+As because I am very new to Postman and NodeJS so I am still learning how to store all the API routes into cloud.
+I have attached a screenshot of how my API collection will look like.
+
+You don't have to do much.
+Just follow this following steps so that you can check my task properly. Once again as I am very new to NodeJS, Postman and Express may be this project
+is not upto your expectations. But still I gave my best and came up with the final version of the project. I will be uploading the whole project 
+in github so that you can download it from there. Thank You!!!
+
+Please create this collections in Postman so that it would be easy to check the APIs...
+
+API Collections:
+
+1.Student 
+	1.1)Route for inserting a student:
+	Request 1 (Add Student) - localhost:3000/user-student
+
+	1.2)Route for getting all the students:
+	Request 2 (Get Students) - localhost:3000/user-student
+
+	1.3)Route for getting a student by Id:
+	Request 3 (Get Student By Id) - localhost:3000/user-student/6052e4b127db133a9cdacca0 (6052e4b127db133a9cdacca0 - Student Id)
+	
+	1.4)Route for updating a student details by Id:
+	Request 4 (Update Student By Id) - localhost:3000/user-student/6052e4b127db133a9cdacca0 (6052e4b127db133a9cdacca0 - Student Id)
+	
+	1.5)Route for Deleting a student:
+	Request 5 (Delete Student By Id) - localhost:3000/user-student/6052e4b127db133a9cdacca0 (6052e4b127db133a9cdacca0 - Student Id)
+
+	1.6)Route for logging in as a student:
+	Request 6 (Student Login) - localhost:3000/student
+
+Note: You can do the same for the other collections too like admin, records, payments, books etc 	
+
+This is how I have created the collections and checked my APIs
+
+I didn't add any jwtwebtoken features in this project as because I am still learning about these. Thank You!!!
